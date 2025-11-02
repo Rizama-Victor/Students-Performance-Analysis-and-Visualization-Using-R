@@ -1,4 +1,4 @@
-## Task
+## Task 2
 
 # Based on the Data Downloaded, create a summary statistics for the column race.ethnicity
 # a the average of the math score based on the race ethnicity (plot this)
@@ -133,4 +133,5 @@ mean_dev_for_each_parental_lvl <- student_performance_df %>%
   summarise((mean_dev = sum(each_student_total_score) - mean(each_student_total_score)))  # -- deviation from mean for each parental level of education
 
 View(mean_dev_for_each_parental_lvl) # -- displays the dataframe
+
 

@@ -55,3 +55,33 @@ The required columns are: `name (character)`, `age (numeric)`, `gender (characte
     <br>
     <em> The Race Ethnicity Average Math Score Plot</em>
 </p>
+
+### 📂 Section 3 — Extended Analysis & Visualization 
+
+This section focused on advanced visualization and deeper individual-level analysis using the Students Performance dataset.
+It builds on the earlier sections by introducing new types of plots and multi-metric analysis.
+
+🔹 Task 1 – Advanced Visualization of Total Score per Student (Jitter Plot)
+
+- Create a new column called `total_score` which will be the  = math.score + reading.score + writing.score
+
+- Visualize total score distribution per student using a jitter plot, where: Points are colored by parental level of education and the Jitter is applied to reduce point overlap
+
+🔹 Task 2 – Advanced Visualization of Average Total Score per Student (Jitter Plot)
+
+After computing total_score, create: average_score = total_score / 3 and plot the average student performance using a jitter plot grouped by parental education level after which you'd apply custom color mapping.
+
+**NOTE:** The Results for this can be assessed by accessing and running the program script [**here**](Project_3.r)
+
+<p align="center">
+    <img src="each_stdt_ttl_scr_avg_plt.png" alt="each_stdt_ttl_scr_avg_plt" width="1500"/>
+    <br>
+    <em> Each Student's Total Score Average Plot</em>
+</p>
+
+<p align="center">
+    <img src="each_stdt_ttl_scr_plt.png" alt="each_stdt_ttl_scr_plt" width="1500"/>
+    <br>
+    <em> Each Student's Total Plot</em>
+</p>
+

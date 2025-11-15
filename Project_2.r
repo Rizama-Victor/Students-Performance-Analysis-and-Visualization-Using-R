@@ -9,7 +9,7 @@
 
 # f plot the average of math score by the by parental level of education
 # g plot the total math score based on parental level of education
-# h plot the race ethnicity math score 
+# h plot the race ethnicity average math score 
 
 ## NOTE: 
 # 1 Kindly include comments
@@ -134,6 +134,7 @@ mean_dev_for_each_parental_lvl <- student_performance_df %>%
   summarise((mean_dev = sum(each_student_total_score) - mean(each_student_total_score)))  # -- deviation from mean for each parental level of education
 
 View(mean_dev_for_each_parental_lvl) # -- displays the dataframe
+
 
 
 

@@ -14,7 +14,7 @@ The required columns are: `name (character)`, `age (numeric)`, `gender (characte
 
 🔹 **Compute Average Score (Task 3):** This involved creating another columns named `Average` that computes the mean of the four subject scores (from math, English, physics, chemistry).
 
-**NOTE:** The Results for this can be assessed by accessing and running the program script [**here**](Project_1.r)
+**NOTE:** The Results for this can be assessed by accessing and running the program script [**here**](Project_1.r).
 
 ### 📂 Section 2 — Data Exploration & Visualization 
 
